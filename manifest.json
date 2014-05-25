@@ -1,0 +1,21 @@
+// Starting point:
+// http://stackoverflow.com/questions/13783500/context-menus-in-chrome-extensions
+
+{
+    "name": "Google Scholar Search Extension",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Google Scholar Search Extension",
+
+    "permissions": [
+
+        "contextMenus"
+
+     ],
+
+
+    "background": {
+
+        "scripts": ["script.js"]
+    }
+}
